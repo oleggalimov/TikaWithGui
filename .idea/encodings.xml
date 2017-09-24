@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/gui/addPatternFrame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/gui/mainFrame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/listeners/mainFrameAddButton.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/listeners/mainFrameDeleteButton.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/listeners/mainFrameOpenClose.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/listeners/mainFrameStart.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/startApp.java" charset="windows-1251" />
+  </component>
+</project>
