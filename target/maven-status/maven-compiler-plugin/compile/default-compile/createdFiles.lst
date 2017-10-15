@@ -1,0 +1,7 @@
+listeners\mainFrameDeleteButton.class
+gui\mainFrame.class
+listeners\mainFrameOpenClose.class
+gui\addPatternFrame.class
+listeners\mainFrameAddButton.class
+listeners\mainFrameStart.class
+startApp.class

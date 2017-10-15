@@ -26,7 +26,8 @@ public class mainFrameStart implements ActionListener {
         File fin = new File (jTextArea.getText());
         if (fin.exists()) {
             try {
-                FileOutputStream fout = new FileOutputStream (new File("result.csv"));
+                String resultFile = System.getProperty("user.home").concat("\\result.csv");
+                FileOutputStream fout = new FileOutputStream (new File(resultFile));
                 owner.setEnabled(false);
                 int counter=0;
                 String Fpath=null;
@@ -81,8 +82,8 @@ public class mainFrameStart implements ActionListener {
                     }
                     log.append("Обработан каталог "+f1+"\n");
                     log.update(log.getGraphics());
-
                 }
+                JOptionPane.showMessageDialog(owner,"Обработка завершена, результат записан в файл:\n"+resultFile,"Завершено", JOptionPane.INFORMATION_MESSAGE);
                 owner.setEnabled(true);
             } catch (FileNotFoundException e1) {
                 JOptionPane.showMessageDialog(owner,"Ошибка чтения файла","Ошибка",JOptionPane.ERROR_MESSAGE);
