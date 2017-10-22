@@ -42,7 +42,7 @@ public class mainFrame extends JFrame {
 
         JTextArea logPanel = new JTextArea();
         JScrollPane logScrollpanel = new JScrollPane(logPanel);
-        logPanel.setText("Поиск по регулярным выражениям. Версия 1.1. \nАвтор - О.Д. Галимов\n");
+        logPanel.setText("Поиск по регулярным выражениям. Версия 1.2. \nАвтор - О.Д. Галимов\n");
         logPanel.setBorder(BorderFactory.createTitledBorder("Журнал"));
         bottomBox.add(logScrollpanel);
 

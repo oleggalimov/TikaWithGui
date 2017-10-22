@@ -7,9 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88c6d8ca-667a-4ae3-a603-17985e434ac8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/gui/mainFrame.class" afterPath="$PROJECT_DIR$/target/classes/gui/mainFrame.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/gui/addPatternFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/gui/mainFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/listeners/mainFrameAddButton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/listeners/mainFrameDeleteButton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/listeners/mainFrameOpenClose.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/listeners/mainFrameStart.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/startApp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/original-textAnalysis-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/textAnalysis-1.0-SNAPSHOT.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/addPatternFrame.java" afterPath="$PROJECT_DIR$/src/main/java/gui/addPatternFrame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gui/mainFrame.java" afterPath="$PROJECT_DIR$/src/main/java/gui/mainFrame.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainFrameOpenClose.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mainFrameOpenClose.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/listeners/mainFrameOpenClose.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -91,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainFrame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/mainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="33" />
+            <state relative-caret-position="299">
+              <caret line="44" column="68" lean-forward="false" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -164,8 +175,8 @@
         <option value="$PROJECT_DIR$/src/main/java/listeners/mainFrameDeleteButton.java" />
         <option value="$PROJECT_DIR$/src/main/java/listeners/mainFrameAddButton.java" />
         <option value="$PROJECT_DIR$/src/main/java/listeners/mainFrameStart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gui/mainFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/gui/addPatternFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gui/mainFrame.java" />
       </list>
     </option>
   </component>
@@ -223,6 +234,11 @@
             <path>
               <item name="textAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="textAnalysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="textAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="textAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="Production" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="textAnalysis" type="b2602c69:ProjectViewProjectNode" />
@@ -422,6 +438,14 @@
       <option name="presentableId" value="Default" />
       <updated>1506188755551</updated>
     </task>
+    <task id="LOCAL-00001" summary="added scrollpane at Journal window">
+      <created>1508663045989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508663045989</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -435,7 +459,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10113268" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.034789644" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33295193" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -486,6 +510,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added scrollpane at Journal window" />
+    <option name="LAST_COMMIT_MESSAGE" value="added scrollpane at Journal window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -808,14 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/mainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="54" column="32" lean-forward="true" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gui/addPatternFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -829,8 +849,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/listeners/mainFrameOpenClose.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/mainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="44" column="68" lean-forward="false" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="68" />
           <folding />
         </state>
       </provider>
