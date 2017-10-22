@@ -39,10 +39,12 @@ public class mainFrame extends JFrame {
         Box mainBox = Box.createVerticalBox();
 
         Box bottomBox = Box.createHorizontalBox();
+
         JTextArea logPanel = new JTextArea();
+        JScrollPane logScrollpanel = new JScrollPane(logPanel);
         logPanel.setText("Поиск по регулярным выражениям. Версия 1.1. \nАвтор - О.Д. Галимов\n");
         logPanel.setBorder(BorderFactory.createTitledBorder("Журнал"));
-        bottomBox.add(logPanel);
+        bottomBox.add(logScrollpanel);
 
         Box topBox = Box.createHorizontalBox();
 
