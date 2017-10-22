@@ -1,2 +1,2 @@
 echo off
-java -jar textAnalysis-1.1.jar
+java -jar textAnalysis-1.2.jar
