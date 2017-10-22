@@ -9,6 +9,8 @@ import javax.swing.*;
 import javax.xml.stream.events.StartDocument;
 
 import java.awt.*;
+import java.awt.event.AdjustmentEvent;
+import java.awt.event.AdjustmentListener;
 import java.util.regex.Pattern;
 
 public class mainFrame extends JFrame {
@@ -42,6 +44,11 @@ public class mainFrame extends JFrame {
 
         JTextArea logPanel = new JTextArea();
         JScrollPane logScrollpanel = new JScrollPane(logPanel);
+        logScrollpanel.getVerticalScrollBar().addAdjustmentListener(new AdjustmentListener() {
+            public void adjustmentValueChanged(AdjustmentEvent e) {
+                e.getAdjustable().setValue(e.getAdjustable().getMaximum());
+            }
+        });
         logPanel.setText("Поиск по регулярным выражениям. Версия 1.2. \nАвтор - О.Д. Галимов\n");
         logPanel.setBorder(BorderFactory.createTitledBorder("Журнал"));
         bottomBox.add(logScrollpanel);
@@ -63,7 +70,7 @@ public class mainFrame extends JFrame {
         JTextField pathToFile = new JTextField("Укажите путь к файлам");
         pathToFile.setBorder(BorderFactory.createTitledBorder("Путь к файлам обработки"));
         JButton StatButon = new JButton("Начать обработку");
-        StatButon.addActionListener(new mainFrameStart(logPanel,pathToFile,this));
+        StatButon.addActionListener(new mainFrameStart(logPanel, pathToFile,this));
 
 
         rightPanel.add(CreateButton);
